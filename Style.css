@@ -19,11 +19,12 @@ h{
 
 .banner{
        
+    font-size: 30px;
+   border-top:2px solid rgb(85, 80, 80)
+}
+.banner h1 {
+       
     font-size: 50px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
 }
 
 .Aboutme * {
@@ -35,7 +36,10 @@ h{
     text-align:justify;
 }
 .nav {
-display:flex;
+display:inline-flex;
+margin: 5px auto;
+width:100%;
+
 
 }
 dl>* {
